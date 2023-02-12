@@ -32,3 +32,14 @@ Usage of obs-cli5x:
         Stop recording
 
 ```
+
+## Installation
+
+Install go 1.20, then run
+
+```
+go build
+go install
+```
+
+The binary will be installed in your go/bin directory somewhere in your home. Make sure its in the path.
