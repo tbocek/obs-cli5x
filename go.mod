@@ -1,8 +1,8 @@
 module obs-cli5x
 
-go 1.20
+go 1.21
 
-require github.com/andreykaipov/goobs v0.12.0
+require github.com/andreykaipov/goobs v0.12.1-0.20230915031349-ec56dc7e6338
 
 require (
 	github.com/buger/jsonparser v1.1.1 // indirect

@@ -1,5 +1,7 @@
 github.com/andreykaipov/goobs v0.12.0 h1:EsV3QzqWO+FsrLFbzzKsZuHsdFAGp7F0nG9OiDWdaVs=
 github.com/andreykaipov/goobs v0.12.0/go.mod h1:EqG73Uu/4npyhXIWWszgRelNkEeIz+d0slUT6NKWYs4=
+github.com/andreykaipov/goobs v0.12.1-0.20230915031349-ec56dc7e6338 h1:pMb81kWPmRgHEQR2kRY8eBe3FndIFzY/Ak5TuBqZNRk=
+github.com/andreykaipov/goobs v0.12.1-0.20230915031349-ec56dc7e6338/go.mod h1:9lCSWI7uZScJx05Hc0KnRtIItGjU8VpGV5dhONiiUgg=
 github.com/buger/jsonparser v1.1.1 h1:2PnMjfWD7wBILjqQbt530v576A/cAbQvEW9gGIpYMUs=
 github.com/buger/jsonparser v1.1.1/go.mod h1:6RYKKt7H4d4+iWqouImQ9R2FZql3VbhNgx27UK13J/0=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
@@ -12,3 +14,4 @@ github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d/go.mod h1:YUTz3bUH
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5CcY=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c h1:dUUwHk2QECo/6vqA44rthZ8ie2QXMNeKRTHCNY2nXvo=
+gopkg.in/yaml.v3 v3.0.0 h1:hjy8E9ON/egN1tAYqKb61G10WtihqetD4sz2H+8nIeA=

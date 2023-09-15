@@ -71,14 +71,13 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer client.Disconnect()
 
-	//version, err := client.General.GetVersion()
-	//if err != nil {
-	//	log.Fatal(err)
-	//}
-	//fmt.Printf("OBS Studio version: %s\n", version.ObsVersion)
-	//fmt.Printf("Websocket server version: %s\n", version.ObsWebSocketVersion)
+	version, err := client.General.GetVersion()
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Printf("OBS Studio version: %s\n", version.ObsVersion)
+	fmt.Printf("Websocket server version: %s\n", version.ObsWebSocketVersion)
 
 	if opts.Scene != "" && opts.Item == "" {
 		p := &scenes.SetCurrentProgramSceneParams{SceneName: opts.Scene}
@@ -133,5 +132,8 @@ func main() {
 		fmt.Println("not sure what to do...")
 		flag.PrintDefaults()
 	}
-	client.Disconnect()
+	err = client.Disconnect()
+	if err != nil {
+		log.Fatal(err)
+	}
 }
