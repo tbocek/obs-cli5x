@@ -1,3 +1,7 @@
+# ⚠️ This Project is Archived ⚠️
+
+I have switched to https://github.com/muesli/obs-cli, which has all the functions I need, thus I no longer need to maintain this project.
+
 # Simple OBS 5.x websocket command line client
 
 This tool provides the minimal functionality of obs-cli, which works 
